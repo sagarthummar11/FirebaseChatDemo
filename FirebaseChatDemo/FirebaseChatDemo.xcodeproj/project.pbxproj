@@ -12,6 +12,8 @@
 		6D2C3C591EFD2ABC00212B8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2C3C571EFD2ABC00212B8C /* Main.storyboard */; };
 		6D2C3C5B1EFD2ABC00212B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D2C3C5A1EFD2ABC00212B8C /* Assets.xcassets */; };
 		6D2C3C5E1EFD2ABC00212B8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2C3C5C1EFD2ABC00212B8C /* LaunchScreen.storyboard */; };
+		6DF0B3CB1EFD376700D496B3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0B3CA1EFD376700D496B3 /* LoginViewController.swift */; };
+		6DF0B3CE1EFD379D00D496B3 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0B3CD1EFD379D00D496B3 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6D2C3C5A1EFD2ABC00212B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D2C3C5D1EFD2ABC00212B8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D2C3C5F1EFD2ABC00212B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF0B3CA1EFD376700D496B3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6DF0B3CD1EFD379D00D496B3 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,32 @@
 		6D2C3C521EFD2ABC00212B8C /* FirebaseChatDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6DF0B3CC1EFD378600D496B3 /* Extension  */,
+				6DF0B3C91EFD374400D496B3 /* Controller */,
 				6D2C3C531EFD2ABC00212B8C /* AppDelegate.swift */,
-				6D2C3C551EFD2ABC00212B8C /* ViewController.swift */,
 				6D2C3C571EFD2ABC00212B8C /* Main.storyboard */,
 				6D2C3C5A1EFD2ABC00212B8C /* Assets.xcassets */,
 				6D2C3C5C1EFD2ABC00212B8C /* LaunchScreen.storyboard */,
 				6D2C3C5F1EFD2ABC00212B8C /* Info.plist */,
 			);
 			path = FirebaseChatDemo;
+			sourceTree = "<group>";
+		};
+		6DF0B3C91EFD374400D496B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C3C551EFD2ABC00212B8C /* ViewController.swift */,
+				6DF0B3CA1EFD376700D496B3 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6DF0B3CC1EFD378600D496B3 /* Extension  */ = {
+			isa = PBXGroup;
+			children = (
+				6DF0B3CD1EFD379D00D496B3 /* UIColor.swift */,
+			);
+			path = "Extension ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DF0B3CB1EFD376700D496B3 /* LoginViewController.swift in Sources */,
+				6DF0B3CE1EFD379D00D496B3 /* UIColor.swift in Sources */,
 				6D2C3C561EFD2ABC00212B8C /* ViewController.swift in Sources */,
 				6D2C3C541EFD2ABC00212B8C /* AppDelegate.swift in Sources */,
 			);
@@ -310,6 +334,7 @@
 				6D2C3C641EFD2ABC00212B8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
